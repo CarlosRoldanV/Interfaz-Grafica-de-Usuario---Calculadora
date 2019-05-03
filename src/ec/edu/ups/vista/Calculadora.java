@@ -67,7 +67,7 @@ Double res;
                 btraizActionPerformed(evt);
             }
         });
-        getContentPane().add(btraiz, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 140, 120, 90));
+        getContentPane().add(btraiz, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 140, 120, 90));
 
         bt7.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         bt7.setText("7");
@@ -397,23 +397,28 @@ Double res;
 
     private void btraizActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btraizActionPerformed
         // TODO add your handling code here:
+        cont=txt.getText();
+        if(cont.length()>0){
+            res=Math.sqrt(Double.parseDouble(cont));
+            txt.setText(res.toString());
+        }
     }//GEN-LAST:event_btraizActionPerformed
 
     private void bt1xActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bt1xActionPerformed
         // TODO add your handling code here:
-       if(!txt.getText().equals("")){
-            v1=txt.getText();
-            sig="1^x";
-            txt.setText("");
+               cont=txt.getText();
+        if(cont.length()>0){
+            res=1/(Double.parseDouble(cont));
+            txt.setText(res.toString());
         }
     }//GEN-LAST:event_bt1xActionPerformed
 
     private void btx2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btx2ActionPerformed
         // TODO add your handling code here:
-        if(!txt.getText().equals("")){
-            v1=txt.getText();
-            sig="x^2";
-            txt.setText("");
+       cont=txt.getText();
+        if(cont.length()>0){
+            res=Math.pow(Double.parseDouble(cont), 2);
+            txt.setText(res.toString());
         }
     }//GEN-LAST:event_btx2ActionPerformed
 
@@ -428,6 +433,11 @@ Double res;
 
     private void btexActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btexActionPerformed
         // TODO add your handling code here:
+         cont=txt.getText();
+        if(cont.length()>0){
+            res=Math.exp(Double.parseDouble(cont));
+            txt.setText(res.toString());
+        }
     }//GEN-LAST:event_btexActionPerformed
 
     private void bt3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bt3ActionPerformed
