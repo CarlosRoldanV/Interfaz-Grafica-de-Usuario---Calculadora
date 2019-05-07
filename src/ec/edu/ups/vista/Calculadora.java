@@ -28,64 +28,39 @@ Double res;
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        txt = new javax.swing.JTextField();
-        btraiz = new javax.swing.JButton();
-        bt7 = new javax.swing.JButton();
-        bt4 = new javax.swing.JButton();
+        jPanel1 = new javax.swing.JPanel();
         bt1 = new javax.swing.JButton();
+        bt4 = new javax.swing.JButton();
+        bt7 = new javax.swing.JButton();
+        btraiz = new javax.swing.JButton();
+        txt = new javax.swing.JTextField();
+        btx2 = new javax.swing.JButton();
+        bt2 = new javax.swing.JButton();
+        bt5 = new javax.swing.JButton();
         bt1x = new javax.swing.JButton();
         bt8 = new javax.swing.JButton();
-        bt5 = new javax.swing.JButton();
-        bt2 = new javax.swing.JButton();
-        btx2 = new javax.swing.JButton();
-        bt9 = new javax.swing.JButton();
-        bt6 = new javax.swing.JButton();
-        bt3 = new javax.swing.JButton();
-        btxy = new javax.swing.JButton();
-        btres = new javax.swing.JButton();
-        btex = new javax.swing.JButton();
+        btdiv = new javax.swing.JButton();
         btborrar = new javax.swing.JButton();
         btmul = new javax.swing.JButton();
-        btdiv = new javax.swing.JButton();
-        btsuma = new javax.swing.JButton();
-        btmm = new javax.swing.JButton();
-        bt0 = new javax.swing.JButton();
+        btex = new javax.swing.JButton();
+        btres = new javax.swing.JButton();
+        btxy = new javax.swing.JButton();
+        bt3 = new javax.swing.JButton();
+        bt6 = new javax.swing.JButton();
+        bt9 = new javax.swing.JButton();
         btp = new javax.swing.JButton();
-        btc = new javax.swing.JButton();
+        bt0 = new javax.swing.JButton();
+        btmm = new javax.swing.JButton();
+        btsuma = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
         btigual = new javax.swing.JButton();
+        btc = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        txt.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        getContentPane().add(txt, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 620, 90));
-
-        btraiz.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        btraiz.setText("RAIZ");
-        btraiz.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btraizActionPerformed(evt);
-            }
-        });
-        getContentPane().add(btraiz, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 140, 120, 90));
-
-        bt7.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        bt7.setText("7");
-        bt7.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                bt7ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(bt7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 230, 120, 90));
-
-        bt4.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        bt4.setText("4");
-        bt4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                bt4ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(bt4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 320, 120, 90));
+        jPanel1.setBorder(new javax.swing.border.MatteBorder(null));
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         bt1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         bt1.setText("1");
@@ -94,7 +69,64 @@ Double res;
                 bt1ActionPerformed(evt);
             }
         });
-        getContentPane().add(bt1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 410, 120, 90));
+        jPanel1.add(bt1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 410, 120, 90));
+
+        bt4.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        bt4.setText("4");
+        bt4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bt4ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(bt4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 320, 120, 90));
+
+        bt7.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        bt7.setText("7");
+        bt7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bt7ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(bt7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, 120, 90));
+
+        btraiz.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        btraiz.setText("RAIZ");
+        btraiz.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btraizActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btraiz, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 140, 120, 90));
+
+        txt.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jPanel1.add(txt, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 30, 600, 90));
+
+        btx2.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        btx2.setText("X^2");
+        btx2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btx2ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btx2, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 140, 120, 90));
+
+        bt2.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        bt2.setText("2");
+        bt2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bt2ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(bt2, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 410, 120, 90));
+
+        bt5.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        bt5.setText("5");
+        bt5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bt5ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(bt5, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 320, 120, 90));
 
         bt1x.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         bt1x.setText("1/X");
@@ -104,7 +136,7 @@ Double res;
                 bt1xActionPerformed(evt);
             }
         });
-        getContentPane().add(bt1x, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 140, 120, 90));
+        jPanel1.add(bt1x, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 140, 120, 90));
 
         bt8.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         bt8.setText("8");
@@ -113,106 +145,7 @@ Double res;
                 bt8ActionPerformed(evt);
             }
         });
-        getContentPane().add(bt8, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 230, 120, 90));
-
-        bt5.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        bt5.setText("5");
-        bt5.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                bt5ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(bt5, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 320, 120, 90));
-
-        bt2.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        bt2.setText("2");
-        bt2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                bt2ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(bt2, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 410, 120, 90));
-
-        btx2.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        btx2.setText("X^2");
-        btx2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btx2ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(btx2, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 140, 120, 90));
-
-        bt9.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        bt9.setText("9");
-        bt9.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                bt9ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(bt9, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 230, 120, 90));
-
-        bt6.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        bt6.setText("6");
-        bt6.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                bt6ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(bt6, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 320, 120, 90));
-
-        bt3.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        bt3.setText("3");
-        bt3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                bt3ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(bt3, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 410, 120, 90));
-
-        btxy.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        btxy.setText("X^Y");
-        btxy.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btxyActionPerformed(evt);
-            }
-        });
-        getContentPane().add(btxy, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 140, 120, 90));
-
-        btres.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        btres.setText("-");
-        btres.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btresActionPerformed(evt);
-            }
-        });
-        getContentPane().add(btres, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 410, 120, 90));
-
-        btex.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        btex.setText("E^X");
-        btex.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btexActionPerformed(evt);
-            }
-        });
-        getContentPane().add(btex, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 140, 120, 90));
-
-        btborrar.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        btborrar.setText("<--");
-        btborrar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btborrarActionPerformed(evt);
-            }
-        });
-        getContentPane().add(btborrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 230, 240, 90));
-
-        btmul.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        btmul.setText("X");
-        btmul.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btmulActionPerformed(evt);
-            }
-        });
-        getContentPane().add(btmul, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 320, 120, 90));
+        jPanel1.add(bt8, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 230, 120, 90));
 
         btdiv.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         btdiv.setText("/");
@@ -221,34 +154,79 @@ Double res;
                 btdivActionPerformed(evt);
             }
         });
-        getContentPane().add(btdiv, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 410, 120, 90));
+        jPanel1.add(btdiv, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 410, 120, 90));
 
-        btsuma.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        btsuma.setText("+");
-        btsuma.addActionListener(new java.awt.event.ActionListener() {
+        btborrar.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        btborrar.setText("<--");
+        btborrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btsumaActionPerformed(evt);
+                btborrarActionPerformed(evt);
             }
         });
-        getContentPane().add(btsuma, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 230, 120, 180));
+        jPanel1.add(btborrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 230, 120, 90));
 
-        btmm.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        btmm.setText("+-");
-        btmm.addActionListener(new java.awt.event.ActionListener() {
+        btmul.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        btmul.setText("X");
+        btmul.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btmmActionPerformed(evt);
+                btmulActionPerformed(evt);
             }
         });
-        getContentPane().add(btmm, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 510, 120, 90));
+        jPanel1.add(btmul, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 320, 120, 90));
 
-        bt0.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        bt0.setText("0");
-        bt0.addActionListener(new java.awt.event.ActionListener() {
+        btex.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        btex.setText("E^X");
+        btex.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                bt0ActionPerformed(evt);
+                btexActionPerformed(evt);
             }
         });
-        getContentPane().add(bt0, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 510, 240, 90));
+        jPanel1.add(btex, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 140, 120, 90));
+
+        btres.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        btres.setText("-");
+        btres.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btresActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btres, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 410, 120, 90));
+
+        btxy.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        btxy.setText("X^Y");
+        btxy.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btxyActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btxy, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 140, 120, 90));
+
+        bt3.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        bt3.setText("3");
+        bt3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bt3ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(bt3, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 410, 120, 90));
+
+        bt6.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        bt6.setText("6");
+        bt6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bt6ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(bt6, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 320, 120, 90));
+
+        bt9.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        bt9.setText("9");
+        bt9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bt9ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(bt9, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 230, 120, 90));
 
         btp.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         btp.setText(".");
@@ -257,16 +235,43 @@ Double res;
                 btpActionPerformed(evt);
             }
         });
-        getContentPane().add(btp, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 510, 120, 90));
+        jPanel1.add(btp, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 500, 120, 90));
 
-        btc.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        btc.setText("C");
-        btc.addActionListener(new java.awt.event.ActionListener() {
+        bt0.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        bt0.setText("0");
+        bt0.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btcActionPerformed(evt);
+                bt0ActionPerformed(evt);
             }
         });
-        getContentPane().add(btc, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 330, 120, 270));
+        jPanel1.add(bt0, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 500, 120, 90));
+
+        btmm.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        btmm.setText("+-");
+        btmm.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btmmActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btmm, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 500, 120, 90));
+
+        btsuma.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        btsuma.setText("+");
+        btsuma.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btsumaActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btsuma, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 320, 120, 90));
+
+        jButton1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jButton1.setText("%");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 500, 120, 90));
 
         btigual.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         btigual.setText("=");
@@ -275,7 +280,18 @@ Double res;
                 btigualActionPerformed(evt);
             }
         });
-        getContentPane().add(btigual, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 510, 120, 90));
+        jPanel1.add(btigual, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 500, 120, 90));
+
+        btc.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        btc.setText("C");
+        btc.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btcActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btc, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 230, 120, 90));
+
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 630, 610));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -341,7 +357,11 @@ Double res;
         rescal=Double.parseDouble(v1)*Double.parseDouble(v2);
         }else  if(sig.equals("/")){
         rescal=Double.parseDouble(v1)/Double.parseDouble(v2);
-        } else  if(sig.equals("x^y")){
+        } else  if(sig.equals("%")){
+        rescal=(Double.parseDouble(v1)/100)*Double.parseDouble(v2);
+        } 
+        else  if(sig.equals("x^y"))
+        {
         rescal=Math.pow(Double.parseDouble(v1),Double.parseDouble(v2));
         
         }
@@ -479,6 +499,15 @@ Double res;
         }
     }//GEN-LAST:event_btsumaActionPerformed
 
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+        if(!txt.getText().equals("")){
+            v1=txt.getText();
+            sig="%";
+            txt.setText("");
+        }
+    }//GEN-LAST:event_jButton1ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -540,6 +569,8 @@ Double res;
     private javax.swing.JButton btsuma;
     private javax.swing.JButton btx2;
     private javax.swing.JButton btxy;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JPanel jPanel1;
     private javax.swing.JTextField txt;
     // End of variables declaration//GEN-END:variables
 }
